@@ -21,3 +21,11 @@ for i in range(500) :
             step = 0 
         random_walk.append(step)
     all_walks.append(random_walk)
+    
+# Plotting the result
+np_aw_t = np.transpose(np.array(all_walks))
+
+ends = np_aw_t[-1,:]
+
+plt.hist(ends)
+plt.show()

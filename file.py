@@ -1,4 +1,4 @@
-# Imporing Numpy and Matplotlib 
+# Importing Numpy and Matplotlib 
 import matplotlib.pyplot as plt
 import numpy as np
 # Setting the seed 
